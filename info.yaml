@@ -22,9 +22,9 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: "stimulus_1" #First input stimulus
-  ui[1]: "stimulus_2" #Second input stimulus
-  ui[2]: ""
+  ui[0]: "clk" 
+  ui[1]: "reset" 
+  ui[2]: "spike_in"
   ui[3]: ""
   ui[4]: ""
   ui[5]: ""
@@ -32,8 +32,8 @@ pinout:
   ui[7]: ""
 
   # Outputs
-  uo[0]: "spike_output_1" #Output signal for first neuron spike
-  uo[1]: "spike_output_2" #Output signal for second neuron spike (if network has multiple neurons)
+  uo[0]: "spike_out" 
+  uo[1]: "" 
   uo[2]: ""
   uo[3]: ""
   uo[4]: ""
